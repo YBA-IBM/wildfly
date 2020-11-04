@@ -19,6 +19,7 @@ RUN cd $HOME \
     && mkdir -p $JBOSS_HOME \
     && mv $HOME/wildfly-$WILDFLY_VERSION $JBOSS_HOME \
     && rm wildfly-$WILDFLY_VERSION.tar.gz \
+    && useradd -m jboss
     && chown -R jboss:0 ${JBOSS_HOME} \
     && chmod -R g+rw ${JBOSS_HOME}
 
