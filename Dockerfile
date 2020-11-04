@@ -1,5 +1,5 @@
 # Use latest jboss/base-jdk:11 image as the base
-FROM jboss/base-jdk:11
+FROM quay.io/ibmz/openjdk:11.0.8
 
 # Set the WILDFLY_VERSION env variable
 ENV WILDFLY_VERSION 21.0.0.Final
