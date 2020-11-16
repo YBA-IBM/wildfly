@@ -87,10 +87,4 @@ The server is run as the `jboss` user which has the uid/gid set to `1000`.
 
 WildFly is installed in the `/opt/jboss/wildfly` directory.
 
-## Source
 
-The source is [available on GitHub](https://github.com/jboss-dockerfiles/wildfly).
-
-## Issues
-
-Please report any issues or file RFEs on [GitHub](https://github.com/jboss-dockerfiles/wildfly/issues).
